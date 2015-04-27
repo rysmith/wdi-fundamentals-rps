@@ -75,15 +75,14 @@ function playToFive() {
             console.log('player: ' + playerWins + ', computer: ' + computerWins);
         } else if (winner === 'computer') {
             computerWins += 1;
-            console.log('computer picked ' + computerMove + ', you lose'); 
+            console.log('computer picked ' + computerMove + ', you lose');
             console.log('score...')
             console.log('player: ' + playerWins + ', computer: ' + computerWins);
         } else {
             console.log('it was a tie');
         }
 
-        
+
     }
     return [playerWins, computerWins];
 }
-
